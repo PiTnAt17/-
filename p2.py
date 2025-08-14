@@ -1,9 +1,6 @@
-# x=input()
-# y=int(input())
-# a=['A','B', 'C', 'D', 'E' 'F', 'G', 'H']
-# m=(x in a) and y in range(1, 8)
-# print(m)
-
-
-
-
+def printPetNames(owner, **pets):
+    print(f"Owner Name: {owner}")
+    for pet,name in pets.items():
+        print(f"{pet}: {name}")
+printPetNames("Jonathan", dog="Brock", fish=["Larry", "Curly", "Moe"]
+              
